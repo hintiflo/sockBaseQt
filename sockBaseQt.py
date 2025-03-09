@@ -142,7 +142,7 @@ buttStopTcp.clicked.connect(buttStopTcpFn)
 buttExit.clicked.connect(buttExitFn)
 
 labelWifi = QLabel('Start / Stop SOCKBase0', font = stdFont, alignment = Qt.AlignmentFlag.AlignCenter)
-labelTcp =  QLabel('TCP RX on port ... ', font = stdFont, alignment = Qt.AlignmentFlag.AlignCenter)
+labelTcp =  QLabel('TCP RX on port 10000 ', font = stdFont, alignment = Qt.AlignmentFlag.AlignCenter)
 
 stateWifi = QLabel("", font = stdFont, alignment = Qt.AlignmentFlag.AlignCenter)
 stateWifiIsOff()
